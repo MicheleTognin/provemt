@@ -13,7 +13,7 @@ function TodoList() {
     { id: uuid(), text: "Fix the TV" },
   ]);
   return (
-    <Container style={{ marginTop: "2rem" }}>
+    <Container style={{ padding: "5rem" }}>
       <ListGroup style={{ marginBottom: "1rem" }}>
         <TransitionGroup className="todo-list">
           {items.map(({ id, text }) => (
@@ -21,7 +21,7 @@ function TodoList() {
               <ListGroup.Item>
                 <Button
                   className="remove-btn"
-                  variant="danger"
+                  variant="warning"
                   size="sm"
                   onClick={() =>
                     setItems((items) => items.filter((item) => item.id !== id))
@@ -36,6 +36,7 @@ function TodoList() {
         </TransitionGroup>
       </ListGroup>
       <Button
+        variant="success"
         onClick={() => {
           const text = prompt("Enter some text");
           if (text) {
