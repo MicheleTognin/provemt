@@ -1,7 +1,7 @@
 body {
   padding: 2rem;
   font-family: sans-serif;
-  text-align: center;
+  justify-content: center;
 }
 
 .label {
@@ -34,5 +34,5 @@ body {
 }
 .fade-enter-active .btn,
 .fade-exit-active .btn {
-  transition: opacity 500ms, transform 500ms;
+  transition: opacity 256ms, transform 256ms;
 }

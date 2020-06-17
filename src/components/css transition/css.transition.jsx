@@ -8,12 +8,13 @@ function Example() {
   const [showButton, setShowButton] = useState(true);
   const [showMessage, setShowMessage] = useState(false);
   return (
-    <Container style={{ paddingTop: "10rem", paddingLeft: "10rem" }}>
+    <Container style={{ padding: "10rem" }}>
       {showButton && (
         <Button
           onClick={() => setShowMessage(true)}
           size="xxl"
           variant="danger"
+          block
         >
           Mostra Messaggio
         </Button>
