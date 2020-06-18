@@ -1,6 +1,6 @@
 import React from "react";
 import { useSpring, animated } from "react-spring";
-import "./card.spring.css";
+import "./CardSpringStyles.css";
 
 const calc = (x, y) => [
   -(y - window.innerHeight / 2) / 20,

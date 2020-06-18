@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Container, Button, Alert } from "react-bootstrap";
 import { CSSTransition } from "react-transition-group";
 
-import "./css.transition.css";
+import "./CssTransitionStyles.css";
 
 function Example() {
   const [showButton, setShowButton] = useState(true);

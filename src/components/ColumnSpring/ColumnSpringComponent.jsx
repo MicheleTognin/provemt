@@ -2,7 +2,7 @@
 import React from "react";
 import { useSpring, animated } from "react-spring";
 import range from "lodash-es/range";
-import "./column.spring.css";
+import "./ColumnSpringStyles.css";
 
 const items = range(4);
 const interp = (i) => (r) =>
