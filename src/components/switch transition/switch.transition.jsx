@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { SwitchTransition, CSSTransition } from "react-transition-group";
 import { Button, Form } from "react-bootstrap";
 import "./switch.transition.css";
@@ -6,8 +6,8 @@ import "./switch.transition.css";
 const modes = ["out-in", "in-out"];
 
 function Switch() {
-  const [mode, setMode] = React.useState("out-in");
-  const [state, setState] = React.useState(true);
+  const [mode, setMode] = useState("out-in");
+  const [state, setState] = useState(true);
   return (
     <>
       <div className="label">Mode:</div>

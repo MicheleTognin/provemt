@@ -1,19 +1,19 @@
 
 
-#root {
+/* #root {
   display: flex;
   align-items: center;
   justify-content: center;
   overflow: hidden;
   background: #f0f0f0;
-}
+} */
 
 .card {
   width: 45ch;
   height: 45ch;
   background: grey;
   border-radius: 5px;
-  background-image: url(https://drscdn.500px.org/photo/435236/q%3D80_m%3D1500/v2?webp=true&sig=67031bdff6f582f3e027311e2074be452203ab637c0bd21d89128844becf8e40);
+  background-image: url(https://sammlung.staedelmuseum.de/images/4100/lucio-fontana-concetto-spaziale-attese-sg1240--thumb-xl.jpg);
   background-size: cover;
   background-position: center center;
   box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.3);
